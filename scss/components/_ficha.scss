@@ -1,0 +1,316 @@
+.poke-entrenador {
+    @include flex (flex, space-around, center, row);
+    height: 70vh;
+    width: 50vw;
+    background-color: #fdd7008e;
+    margin: 2rem 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    border: 5px solid #c4a6018e;
+
+    .poke-entrenador-img {
+        @include flex (flex, none, center, column);
+        background-color: #ffffff;
+        padding: .5rem;
+        border: 3px solid #c4a6018e;
+        border-radius: 20px;
+        height: 90%;
+        width: 50%;
+
+        h2 {
+            text-align: center;
+            width: 100%;
+            border-radius: 20px;
+            border: 3px solid #c4a6018e;
+            background-color: #ffee00;
+            padding: .5rem;
+        }
+
+        img {
+            padding: .5rem;
+            height: 90%;
+        }
+    }
+
+    .poke-entrenador-info {
+        @include flex (flex, space-between, center, column);
+        background-color: #ffffff;
+        padding: .5rem;
+        border: 3px solid #c4a6018e;
+        border-radius: 20px;
+        height: 90%;
+        width: 40%;
+
+        h2 {
+            text-align: center;
+            width: 100%;
+            border-radius: 20px;
+            border: 3px solid #c4a6018e;
+            background-color: #ffee00;
+            padding: .5rem;
+        }
+
+        p {
+            text-align: left;
+        }
+
+        input {
+            text-align: center;
+            border-width: 0 0 1px 0;
+        }
+
+        div {
+            display: flex;
+            gap: 1rem;
+            button{
+                width: 55%;
+                height: 100%;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 5px;
+                padding: 4%;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: 600;
+                background-color: #f5ed14;
+                color: black;
+                box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+                &:active{
+                    box-shadow: inset -4px 4px 0 #222;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+.poke-equipo {
+    padding: 20px 0 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .poke-card {
+        flex-basis: calc(50% - 20px);
+        margin: .5rem;
+
+        .poke-equipo-card {
+            display: grid;
+            grid-template-columns: 0.9fr 1.1fr;
+            grid-template-rows: auto auto auto auto;
+            grid-template-areas:
+                "poke-equipo-data-nombre poke-equipo-data-nombre"
+                "poke-equipo-img poke-equipo-data-types"
+                "poke-equipo-img poke-equipo-data-debilidad"
+                "poke-equipo-img poke-equipo-moves";
+
+            border: 4px solid rgba(108, 109, 108, 0.486);
+            width: 80%;
+            box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+            -webkit-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+            -moz-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+
+            .poke-equipo-data-nombre {
+                grid-area: poke-equipo-data-nombre;
+                @include flex (flex, space-evenly, center, row);
+                background-color: #e2518e;
+                padding: 0.5rem;
+                width: 100%;
+                text-transform: capitalize;
+            }
+
+            .poke-equipo-img {
+                grid-area: poke-equipo-img;
+                @include flex (flex, center, center, row);
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .poke-equipo-data-types {
+                grid-area: poke-equipo-data-types;
+                @include flex (flex, space-evenly, center, row);
+                width: 100%;
+                margin: 1rem 0 1rem 0;
+                background-color: rgba(182, 182, 182, 0.349);
+                border-radius: 25px;
+                padding: 5px;
+                text-transform: capitalize;
+
+                .pokemon-grass {
+                    @extend %hierba;
+                }
+
+                .pokemon-poison {
+                    @extend %veneno;
+                }
+
+                .pokemon-fire {
+                    @extend %fuego;
+                }
+
+                .pokemon-flying {
+                    @extend %volador;
+                }
+
+                .pokemon-psychic {
+                    @extend %psiquico;
+                }
+
+                .pokemon-ice {
+                    @extend %hielo;
+                }
+
+                .pokemon-water {
+                    @extend %agua;
+                }
+
+                .pokemon-ground {
+                    @extend %tierra;
+                }
+
+                .pokemon-rock {
+                    @extend %roca;
+                }
+
+                .pokemon-electric {
+                    @extend %electrico;
+                }
+
+                .pokemon-bug{
+                    @extend %bicho;
+                }
+
+                .pokemon-normal{
+                    @extend %normal;
+                }
+
+                .pokemon-dragon{
+                    @extend %dragon;
+                }
+
+                .pokemon-fairy{
+                    @extend %hada;
+                }
+
+                .pokemon-steel{
+                    @extend %acero;
+                }
+
+                .pokemon-ghost{
+                    @extend %fantasma;
+                }
+
+                .pokemon-sinister{
+                    @extend %siniestro;
+                }
+
+                .pokemon-fighting{
+                    @extend %lucha;
+                }
+            }
+
+            .poke-equipo-data-debilidad {
+                grid-area: poke-equipo-data-debilidad;
+                @include flex (flex, space-evenly, center, row);
+                background-color: rgba(182, 182, 182, 0.349);
+                border-radius: 25px;
+                padding: 5px;
+                text-transform: capitalize;
+
+                .poke-equipo-data-types-div {
+                    @include flex (flex, center, center, row);
+                    flex-wrap: wrap;
+
+                    .pokemon-grass {
+                            @extend %hierba;
+                        }
+
+                        .pokemon-poison {
+                            @extend %veneno;
+                        }
+
+                        .pokemon-fire {
+                            @extend %fuego;
+                        }
+
+                        .pokemon-flying {
+                            @extend %volador;
+                        }
+
+                        .pokemon-psychic {
+                            @extend %psiquico;
+                        }
+
+                        .pokemon-ice {
+                            @extend %hielo;
+                        }
+
+                        .pokemon-water {
+                            @extend %agua;
+                        }
+
+                        .pokemon-ground {
+                            @extend %tierra;
+                        }
+
+                        .pokemon-rock {
+                            @extend %roca;
+                        }
+
+                        .pokemon-electric {
+                            @extend %electrico;
+                        }
+
+                        .pokemon-bug{
+                            @extend %bicho;
+                        }
+
+                        .pokemon-normal{
+                            @extend %normal;
+                        }
+
+                        .pokemon-dragon{
+                            @extend %dragon;
+                        }
+
+                        .pokemon-fairy{
+                            @extend %hada;
+                        }
+
+                        .pokemon-steel{
+                            @extend %acero;
+                        }
+
+                        .pokemon-ghost{
+                            @extend %fantasma;
+                        }
+
+                        .pokemon-sinister{
+                            @extend %siniestro;
+                        }
+
+                        .pokemon-fighting{
+                            @extend %lucha;
+                        }
+                }
+
+            }
+
+            .poke-equipo-moves {
+                grid-area: poke-equipo-moves;
+                background-color: rgba(182, 182, 182, 0.349);
+                border-radius: 25px;
+                padding: 5px;
+
+                p {
+                    text-transform: capitalize;
+                    display: flex;
+                }
+            }
+
+        }
+    }
+}

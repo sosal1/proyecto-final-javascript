@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Pokedex</a></li>
+                <li><a href="./pages/pokedex.html">Pokemon</a></li>
+                <li><a id="nombreLink" href="./pages/ficha.html">Nombre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="menu-retractil busqueda-avanzada-activada">
+            <form class="buscador-pokemon">
+                <input id="buscador-pokemon-index" class="buscador-pokemon-index" type="search"
+                    placeholder="Busca tu pokemon" required>
+            </form>
+            <div class="types">
+                <button class="btn-tipo grass">Hierba</button>
+                <button class="btn-tipo fire">Fuego</button>
+                <button class="btn-tipo water">Agua</button>
+                <button class="btn-tipo bug">Bicho</button>
+                <button class="btn-tipo poison">Veneno</button>
+                <button class="btn-tipo flying">Volador</button>
+                <button class="btn-tipo normal">Normal</button>
+                <button class="btn-tipo electric">Electrico</button>
+                <button class="btn-tipo ground">Tierra</button>
+                <button class="btn-tipo fairy">Hada</button>
+                <button class="btn-tipo fighting">Lucha</button>
+                <button class="btn-tipo psychic">Psiquico</button>
+                <button class="btn-tipo rock">Roca</button>
+                <button class="btn-tipo steel">Acero</button>
+                <button class="btn-tipo ice">Hielo</button>
+                <button class="btn-tipo ghost">Fantasma</button>
+                <button class="btn-tipo dragon">Dragon</button>
+                <button class="btn-tipo all">Ver todos</button>
+            </div>
+        </div>
+        <section class="menu">
+            <button class="mostrar-menu">^ Búsqueda avanzada ^</button>
+        </section>
+        <section class="poke-pokemon">
+        </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

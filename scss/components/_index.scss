@@ -1,0 +1,687 @@
+main {
+    .menu-retractil {
+        position: relative;
+        @include flex (flex, flex-start, flex-end, column);
+        padding: 2.5rem;
+        height: 35vh;
+
+        &.busqueda-avanzada-activada {
+            display: none;
+        }
+
+        .buscador-pokemon {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-35%);
+
+            .buscador-pokemon-index {
+                width: 80%;
+                padding: 10px;
+                border-radius: 10px;
+            }
+        }
+
+        .types {
+            @include flex (flex, center, none, row);
+            flex-wrap: wrap;
+
+            .grass {
+                @extend %hierba;
+            }
+
+            .fire {
+                @extend %fuego;
+            }
+
+            .water {
+                @extend %agua;
+            }
+
+            .bug {
+                @extend %bicho;
+            }
+
+            .poison {
+                @extend %veneno;
+            }
+
+            .flying {
+                @extend %volador;
+            }
+
+            .normal {
+                @extend %normal;
+            }
+
+            .electric {
+                @extend %electrico;
+            }
+
+            .ground {
+                @extend %tierra;
+            }
+
+            .fairy {
+                @extend %hada;
+            }
+
+            .fighting {
+                @extend %lucha;
+            }
+
+            .psychic {
+                @extend %psiquico;
+            }
+
+            .rock {
+                @extend %roca;
+            }
+
+            .steel {
+                @extend %acero;
+            }
+
+            .ice {
+                @extend %hielo;
+            }
+
+            .ghost {
+                @extend %fantasma;
+            }
+
+            .dragon {
+                @extend %dragon;
+            }
+
+            .all {
+                background-color: rgb(182, 17, 132);
+                border-radius: 100px;
+                padding: 0.25rem 0.5rem;
+                color: white;
+                margin-right: 5px;
+            }
+
+            button {
+                border-radius: 100px;
+                border: none;
+                margin: 1rem;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: 600;
+                box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(1.1);
+                    box-shadow: 0 0 2rem rgba(0, 0, 0, .25);
+                }
+            }
+        }
+    }
+
+    .menu {
+        box-shadow: 1px 10px 16px -6px rgba(70, 69, 69, 0.7);
+        -webkit-box-shadow: 1px 10px 16px -6px rgba(70, 69, 69, 0.7);
+        -moz-box-shadow: 1px 10px 16px -6px rgba(70, 69, 69, 0.7);
+        
+        .mostrar-menu {
+            padding: 2rem 0;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding-left: 5%;
+            width: 98vw;
+            height: 7vh;
+        }
+    }
+
+
+    .poke-pokemon {
+        padding: 20px 0 0 40px;
+        @include flex (flex, center, none, row);
+        flex-wrap: wrap;
+
+        .poke-card {
+            margin: 50px;
+            text-transform: capitalize;
+
+            .fondo-grass {
+                background-image: url(../img/fondo-hojas.jpg);
+                @include bg (center, cover, none);
+                background-color: #0a8f3973;
+                backdrop-filter: blur(7.1px);
+                -webkit-backdrop-filter: blur(7.1px);
+            }
+
+            .fondo-fire {
+                background-image: url(../img/fondo-fuego.jpg);
+                @include bg (center, cover, none);
+                background-color: #bb252573;
+            }
+
+            .fondo-water {
+                background-image: url(../img/fondo-agua.jpg);
+                @include bg (center, cover, none);
+                background-color: #2974c973;
+            }
+
+            .fondo-flying {
+                background-image: url(../img/fondo-volador.jpg);
+                @include bg (center, cover, none);
+                background-color: rgb(71, 147, 233)
+            }
+
+            .fondo-ghost {
+                background-image: url(../img/fondo-fantasma.jpg);
+                @include bg (center, cover, none);
+                background-color: #835cc19a;
+            }
+
+            .fondo-bug {
+                background-image: url(../img/fondo-bicho.jpg);
+                @include bg (center, cover, none);
+                background-color: #acbd2e86;
+            }
+
+            .fondo-ground {
+                background-image: url(../img/fondo-tierra.jpg);
+                @include bg (center, cover, none);
+                background-color: #794a3093;
+            }
+
+            .fondo-fairy {
+                background-image: url(../img/fondo-hada.jpg);
+                @include bg (center, cover, none);
+                background-color: #f3a8ec7c;
+            }
+
+            .fondo-fighting {
+                background-image: url(../img/fondo-lucha.jpg);
+                @include bg (center, cover, none);
+                background-color: #2974c973;
+            }
+
+            .fondo-psychic {
+                background-image: url(../img/fondo-psiquico.jpg);
+                @include bg (center, cover, none);
+                background-color: #2974c973;
+            }
+
+            .fondo-poison {
+                background-image: url(../img/fondo-veneno.jpg);
+                @include bg (center, cover, none);
+                background-color: #b97fc888;
+            }
+
+            .fondo-electric {
+                background-image: url(../img/fondo-electrico.jpg);
+                @include bg (center, cover, none);
+                background-color: #d1d101;
+            }
+
+            .fondo-normal {
+                background-image: url(../img/fondo-normal.jpg);
+                @include bg (center, cover, none);
+                background-color: #a4acaf8c;
+            }
+
+            .fondo-rock {
+                background-image: url(../img/fondo-roca.jpg);
+                @include bg (center, cover, none);
+                background-color: #a4acaf8c;
+            }
+
+            .fondo-ice {
+                background-image: url(../img/fondo-hielo.jpg);
+                @include bg (center, cover, none);
+                background-color: #a4acaf8c;
+            }
+
+            .fondo-dragon {
+                background-image: url(../img/fondo-dragon.jpg);
+                @include bg (center, cover, none);
+                background-color: #a4acaf8c;
+            }
+
+            .poke-pokemon-card {
+                text-align: center;
+                width: 20vw;
+                box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+                -webkit-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+                -moz-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+                position: relative;
+                transition: 250ms;
+
+                &:active .poke-pokemon-data-back {
+                    display: grid;
+                }
+
+                &:active .poke-pokemon-img {
+                    img {
+                        display: none;
+                    }
+                }
+
+                &:active {
+                    background-image: none;
+                }
+
+                .poke-pokemon-img {
+                    backdrop-filter: blur(2px);
+                    -webkit-backdrop-filter: blur(2px);
+
+                    img {
+                        width: 70%;
+
+                    }
+                }
+
+                .poke-pokemon-data {
+                    @include flex (flex, space-around, center, column);
+                    position: relative;
+
+                    .poke-pokemon-data-nombre-grass-poison {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, rgba(131, 31, 213, 1) 36%, #159d45 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-fire {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #ff0000;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-grass {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #159d45;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-fire-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(0deg, rgba(132, 197, 243, 1) 36%, rgba(255, 0, 0, 1) 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-normal-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(0deg, #A4ACAF 36%, rgba(132, 197, 243, 1) 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-bug-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #ADBD2E 36%, rgba(132, 197, 243, 1) 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-bug-grass {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #ADBD2E 36%, #159d45 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-ground {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #794A30;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-poison-ground {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(0deg, #794A30 36%, #831fd5 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-normal {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #A4ACAF;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-water {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #488eea;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-water-ice {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #488eea 36%, #7ADEFF 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-water-poison {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #488eea 36%, #831fd5 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-water-fighting {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #db5433 36%, #488eea 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-water-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #84c5f3 36%, #488eea 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-rock-water {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #B59C52 36%, #488eea 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-water-psychic {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #488eea 36%, #ee306c 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-bug {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #ADBD2E;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-poison {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #831fd5;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-bug-poison {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #831fd5 36%, #ADBD2E 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-poison-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #831fd5 36%, #84c5f3 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-electric-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #ffff00 36%, #84c5f3 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-rock-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #B59C52 36%, #84c5f3 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-ice-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #84c5f3 36%, #831fd5 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-electric {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #ffff00;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-dragon {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #F16E57;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-dragon-flying {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(0deg, #F16E57 36%, #84c5f3 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-fairy {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #F3A8EC;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-normal-fairy {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #A4ACAF 36%, #F3A8EC 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-psychic {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #ee306c;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-ice-psychic {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(0deg, #7ADEFF 36%, #ee306c 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-psychic-fairy {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #F3A8EC 36%, #ee306c 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-fighting {
+                        @include flex (flex, space-evenly, center, row);
+                        background-color: #db5433;
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-rock-ground {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #B59C52 36%, #794A30 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-ground-rock {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #B59C52 36%, #794A30 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-electric-steel {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #9EB7B8 36%, #ffff00 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-ghost-poison {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #831fd5 36%, #B97FC8 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    .poke-pokemon-data-nombre-grass-psychic {
+                        @include flex (flex, space-evenly, center, row);
+                        background: linear-gradient(347deg, #ee306c 36%, #159d45 59%);
+                        padding: 0.5rem;
+                        width: 100%;
+                    }
+
+                    h2 {
+                        text-transform: capitalize;
+                    }
+
+                    .poke-pokemon-data-ball {
+                        img {
+                            position: absolute;
+                            top: 0.2rem;
+                            right: 0.5rem;
+                            width: 10%
+                        }
+
+                        .pokeball-semi {
+                            display: none;
+                        }
+
+                        &:hover {
+                            .pokeball-cerrada {
+                                display: none;
+                            }
+
+                            .pokeball-semi {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .poke-pokemon-data-back {
+                display: none;
+
+                .poke-pokemon-data-types {
+                    @include flex (flex, space-evenly, center, row);
+                    width: 100%;
+                    padding: 5%;
+
+                    .tipo {
+                        color: white;
+                        padding: 2%;
+                    }
+
+                    .poke-pokemon-data-types-div {
+                        background-color: rgba(255, 255, 255, 0.473);
+                        width: auto;
+                        border-radius: 20px;
+                        padding: 5px;
+                        @include flex (flex, center, center, row);
+                        flex-wrap: wrap;
+
+                        .pokemon-grass {
+                            @extend %hierba;
+                        }
+
+                        .pokemon-poison {
+                            @extend %veneno;
+                        }
+
+                        .pokemon-fire {
+                            @extend %fuego;
+                        }
+
+                        .pokemon-flying {
+                            @extend %volador;
+                        }
+
+                        .pokemon-psychic {
+                            @extend %psiquico;
+                        }
+
+                        .pokemon-ice {
+                            @extend %hielo;
+                        }
+
+                        .pokemon-water {
+                            @extend %agua;
+                        }
+
+                        .pokemon-ground {
+                            @extend %tierra;
+                        }
+
+                        .pokemon-rock {
+                            @extend %roca;
+                        }
+
+                        .pokemon-electric {
+                            @extend %electrico;
+                        }
+
+                        .pokemon-bug {
+                            @extend %bicho;
+                        }
+
+                        .pokemon-normal {
+                            @extend %normal;
+                        }
+
+                        .pokemon-dragon {
+                            @extend %dragon;
+                        }
+
+                        .pokemon-fairy {
+                            @extend %hada;
+                        }
+
+                        .pokemon-steel {
+                            @extend %acero;
+                        }
+
+                        .pokemon-ghost {
+                            @extend %fantasma;
+                        }
+
+                        .pokemon-sinister {
+                            @extend %siniestro;
+                        }
+
+                        .pokemon-fighting {
+                            @extend %lucha;
+                        }
+                    }
+
+                }
+
+                .poke-pokemon-data-info {
+                    @include flex (flex, space-evenly, center, row);
+                    width: 100%;
+                    margin-bottom: 1rem;
+
+                    .pokemon-info {
+                        @extend %info
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,908 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Kawi:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-info .pokemon-info {
+  background-color: gray;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white; }
+
+main .menu-retractil .types .grass, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-grass, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-grass, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-grass {
+  background-color: #159d45;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .poison, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-poison, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-poison, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-poison {
+  background-color: #B97FC8;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .fire, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-fire, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-fire, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-fire {
+  background-color: #ff0000;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .flying, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-flying, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-flying, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-flying {
+  background-color: #84c5f3;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5px; }
+
+main .menu-retractil .types .water, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-water, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-water, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-water {
+  background-color: #488eea;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .electric, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-electric, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-electric, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-electric {
+  background-color: #ffff00;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5px; }
+
+main .menu-retractil .types .bug, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-bug, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-bug, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-bug {
+  background-color: #ADBD2E;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5px; }
+
+main .menu-retractil .types .normal, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-normal, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-normal, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-normal {
+  background-color: #A4ACAF;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5px; }
+
+main .menu-retractil .types .ground, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-ground, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-ground, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-ground {
+  background-color: #794A30;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .fairy, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-fairy, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-fairy, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-fairy {
+  background-color: #F3A8EC;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5px; }
+
+main .menu-retractil .types .fighting, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-fighting, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-fighting, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-fighting {
+  background-color: #db5433;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .psychic, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-psychic, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-psychic, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-psychic {
+  background-color: #ee306c;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .rock, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-rock, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-rock, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-rock {
+  background-color: #B59C52;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .steel, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-steel, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-steel, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-steel {
+  background-color: #9EB7B8;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5px; }
+
+main .menu-retractil .types .ice, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-ice, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-ice, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-ice {
+  background-color: #7ADEFF;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 5px; }
+
+main .menu-retractil .types .ghost, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-ghost, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-ghost, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-ghost {
+  background-color: #825cc1;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .menu-retractil .types .dragon, main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-dragon, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-dragon, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-dragon {
+  background-color: #F16E57;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div .pokemon-sinister, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types .pokemon-sinister, .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div .pokemon-sinister {
+  background-color: #707070;
+  border-radius: 100px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  margin-right: 5px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px; }
+
+header {
+  height: 5vh; }
+  header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 15px; }
+    header nav ul li a {
+      font-family: 'Sarabun', sans-serif;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: black;
+      text-decoration: none; }
+
+main .menu-retractil {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 2.5rem;
+  height: 35vh; }
+  main .menu-retractil.busqueda-avanzada-activada {
+    display: none; }
+  main .menu-retractil .buscador-pokemon {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-35%); }
+    main .menu-retractil .buscador-pokemon .buscador-pokemon-index {
+      width: 80%;
+      padding: 10px;
+      border-radius: 10px; }
+  main .menu-retractil .types {
+    display: flex;
+    justify-content: center;
+    align-items: none;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    main .menu-retractil .types .all {
+      background-color: #b61184;
+      border-radius: 100px;
+      padding: 0.25rem 0.5rem;
+      color: white;
+      margin-right: 5px; }
+    main .menu-retractil .types button {
+      border-radius: 100px;
+      border: none;
+      margin: 1rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 600;
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+      transition: 0.3s; }
+      main .menu-retractil .types button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 2rem rgba(0, 0, 0, 0.25); }
+
+main .menu {
+  box-shadow: 1px 10px 16px -6px rgba(70, 69, 69, 0.7);
+  -webkit-box-shadow: 1px 10px 16px -6px rgba(70, 69, 69, 0.7);
+  -moz-box-shadow: 1px 10px 16px -6px rgba(70, 69, 69, 0.7); }
+  main .menu .mostrar-menu {
+    padding: 2rem 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 5%;
+    width: 98vw;
+    height: 7vh; }
+
+main .poke-pokemon {
+  padding: 20px 0 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  main .poke-pokemon .poke-card {
+    margin: 50px;
+    text-transform: capitalize; }
+    main .poke-pokemon .poke-card .fondo-grass {
+      background-image: url(../img/fondo-hojas.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #0a8f3973;
+      backdrop-filter: blur(7.1px);
+      -webkit-backdrop-filter: blur(7.1px); }
+    main .poke-pokemon .poke-card .fondo-fire {
+      background-image: url(../img/fondo-fuego.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #bb252573; }
+    main .poke-pokemon .poke-card .fondo-water {
+      background-image: url(../img/fondo-agua.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #2974c973; }
+    main .poke-pokemon .poke-card .fondo-flying {
+      background-image: url(../img/fondo-volador.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #4793e9; }
+    main .poke-pokemon .poke-card .fondo-ghost {
+      background-image: url(../img/fondo-fantasma.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #835cc19a; }
+    main .poke-pokemon .poke-card .fondo-bug {
+      background-image: url(../img/fondo-bicho.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #acbd2e86; }
+    main .poke-pokemon .poke-card .fondo-ground {
+      background-image: url(../img/fondo-tierra.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #794a3093; }
+    main .poke-pokemon .poke-card .fondo-fairy {
+      background-image: url(../img/fondo-hada.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #f3a8ec7c; }
+    main .poke-pokemon .poke-card .fondo-fighting {
+      background-image: url(../img/fondo-lucha.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #2974c973; }
+    main .poke-pokemon .poke-card .fondo-psychic {
+      background-image: url(../img/fondo-psiquico.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #2974c973; }
+    main .poke-pokemon .poke-card .fondo-poison {
+      background-image: url(../img/fondo-veneno.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #b97fc888; }
+    main .poke-pokemon .poke-card .fondo-electric {
+      background-image: url(../img/fondo-electrico.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #d1d101; }
+    main .poke-pokemon .poke-card .fondo-normal {
+      background-image: url(../img/fondo-normal.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #a4acaf8c; }
+    main .poke-pokemon .poke-card .fondo-rock {
+      background-image: url(../img/fondo-roca.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #a4acaf8c; }
+    main .poke-pokemon .poke-card .fondo-ice {
+      background-image: url(../img/fondo-hielo.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #a4acaf8c; }
+    main .poke-pokemon .poke-card .fondo-dragon {
+      background-image: url(../img/fondo-dragon.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      background-color: #a4acaf8c; }
+    main .poke-pokemon .poke-card .poke-pokemon-card {
+      text-align: center;
+      width: 20vw;
+      box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+      -webkit-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+      -moz-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+      position: relative;
+      transition: 250ms; }
+      main .poke-pokemon .poke-card .poke-pokemon-card:active .poke-pokemon-data-back {
+        display: grid; }
+      main .poke-pokemon .poke-card .poke-pokemon-card:active .poke-pokemon-img img {
+        display: none; }
+      main .poke-pokemon .poke-card .poke-pokemon-card:active {
+        background-image: none; }
+      main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-img {
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px); }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-img img {
+          width: 70%; }
+      main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        position: relative; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-grass-poison {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #831fd5 36%, #159d45 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-fire {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #ff0000;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-grass {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #159d45;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-fire-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(0deg, #84c5f3 36%, red 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-normal-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(0deg, #A4ACAF 36%, #84c5f3 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-bug-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #ADBD2E 36%, #84c5f3 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-bug-grass {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #ADBD2E 36%, #159d45 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-ground {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #794A30;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-poison-ground {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(0deg, #794A30 36%, #831fd5 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-normal {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #A4ACAF;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-water {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #488eea;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-water-ice {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #488eea 36%, #7ADEFF 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-water-poison {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #488eea 36%, #831fd5 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-water-fighting {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #db5433 36%, #488eea 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-water-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #84c5f3 36%, #488eea 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-rock-water {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #B59C52 36%, #488eea 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-water-psychic {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #488eea 36%, #ee306c 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-bug {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #ADBD2E;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-poison {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #831fd5;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-bug-poison {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #831fd5 36%, #ADBD2E 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-poison-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #831fd5 36%, #84c5f3 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-electric-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #ffff00 36%, #84c5f3 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-rock-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #B59C52 36%, #84c5f3 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-ice-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #84c5f3 36%, #831fd5 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-electric {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #ffff00;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-dragon {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #F16E57;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-dragon-flying {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(0deg, #F16E57 36%, #84c5f3 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-fairy {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #F3A8EC;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-normal-fairy {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #A4ACAF 36%, #F3A8EC 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-psychic {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #ee306c;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-ice-psychic {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(0deg, #7ADEFF 36%, #ee306c 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-psychic-fairy {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #F3A8EC 36%, #ee306c 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-fighting {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background-color: #db5433;
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-rock-ground {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #B59C52 36%, #794A30 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-ground-rock {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #B59C52 36%, #794A30 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-electric-steel {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #9EB7B8 36%, #ffff00 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-ghost-poison {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #831fd5 36%, #B97FC8 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-nombre-grass-psychic {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: row;
+          background: linear-gradient(347deg, #ee306c 36%, #159d45 59%);
+          padding: 0.5rem;
+          width: 100%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data h2 {
+          text-transform: capitalize; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-ball img {
+          position: absolute;
+          top: 0.2rem;
+          right: 0.5rem;
+          width: 10%; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-ball .pokeball-semi {
+          display: none; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-ball:hover .pokeball-cerrada {
+          display: none; }
+        main .poke-pokemon .poke-card .poke-pokemon-card .poke-pokemon-data .poke-pokemon-data-ball:hover .pokeball-semi {
+          display: block; }
+    main .poke-pokemon .poke-card .poke-pokemon-data-back {
+      display: none; }
+      main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        padding: 5%; }
+        main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .tipo {
+          color: white;
+          padding: 2%; }
+        main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-types .poke-pokemon-data-types-div {
+          background-color: rgba(255, 255, 255, 0.473);
+          width: auto;
+          border-radius: 20px;
+          padding: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          flex-wrap: wrap; }
+      main .poke-pokemon .poke-card .poke-pokemon-data-back .poke-pokemon-data-info {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 1rem; }
+
+.body-pokedex {
+  background-image: url(/img/fondo-pokemon.png);
+  background-size: 85%; }
+  .body-pokedex main .pokedex {
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    .body-pokedex main .pokedex .pokedex-img {
+      width: 45%;
+      position: relative; }
+    .body-pokedex main .pokedex .poke-bg {
+      position: absolute;
+      top: 30%;
+      left: 31%;
+      height: 30%;
+      width: 30%;
+      z-index: -2; }
+    .body-pokedex main .pokedex .pokemon-pkx {
+      position: absolute;
+      left: 38%;
+      top: 45%;
+      transform: translate(-20%, -50%);
+      height: 20%; }
+    .body-pokedex main .pokedex .poke-pokedex {
+      position: absolute;
+      color: white;
+      width: 14%;
+      right: 31%;
+      top: 33%; }
+      .body-pokedex main .pokedex .poke-pokedex .poke-pokedex-pokemon {
+        padding: 2px; }
+        .body-pokedex main .pokedex .poke-pokedex .poke-pokedex-pokemon .poke-pokedex-pokemon-nombre {
+          text-transform: capitalize;
+          font-size: 90%; }
+      .body-pokedex main .pokedex .poke-pokedex .poke-pokedex-pokemon-habilidad {
+        font-size: 100%; }
+      .body-pokedex main .pokedex .poke-pokedex .poke-pokedex-pokemon-descripcion {
+        font-size: 75%;
+        margin: 2px; }
+  .body-pokedex main .formulario {
+    position: absolute;
+    bottom: 7%;
+    left: 33%; }
+    .body-pokedex main .formulario .buscador-pokedex {
+      background-color: #5EC480;
+      width: 8vw;
+      height: 7vh;
+      border-radius: 12px; }
+  .body-pokedex main .prev-next {
+    position: absolute;
+    bottom: 8.2%;
+    right: 29.4%;
+    width: 17%;
+    display: flex;
+    gap: 1rem; }
+    .body-pokedex main .prev-next button {
+      width: 55%;
+      height: 100%;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 2.5%;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 600;
+      background-color: #053f31;
+      color: white;
+      box-shadow: -2px 3px 0 #222, -4px 6px 0 #000; }
+      .body-pokedex main .prev-next button:active {
+        box-shadow: inset -4px 4px 0 #222;
+        font-size: 0.9rem; }
+
+.poke-entrenador {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 70vh;
+  width: 50vw;
+  background-color: #fdd7008e;
+  margin: 2rem 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  border: 5px solid #c4a6018e; }
+  .poke-entrenador .poke-entrenador-img {
+    display: flex;
+    justify-content: none;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: .5rem;
+    border: 3px solid #c4a6018e;
+    border-radius: 20px;
+    height: 90%;
+    width: 50%; }
+    .poke-entrenador .poke-entrenador-img h2 {
+      text-align: center;
+      width: 100%;
+      border-radius: 20px;
+      border: 3px solid #c4a6018e;
+      background-color: #ffee00;
+      padding: .5rem; }
+    .poke-entrenador .poke-entrenador-img img {
+      padding: .5rem;
+      height: 90%; }
+  .poke-entrenador .poke-entrenador-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: .5rem;
+    border: 3px solid #c4a6018e;
+    border-radius: 20px;
+    height: 90%;
+    width: 40%; }
+    .poke-entrenador .poke-entrenador-info h2 {
+      text-align: center;
+      width: 100%;
+      border-radius: 20px;
+      border: 3px solid #c4a6018e;
+      background-color: #ffee00;
+      padding: .5rem; }
+    .poke-entrenador .poke-entrenador-info p {
+      text-align: left; }
+    .poke-entrenador .poke-entrenador-info input {
+      text-align: center;
+      border-width: 0 0 1px 0; }
+    .poke-entrenador .poke-entrenador-info div {
+      display: flex;
+      gap: 1rem; }
+      .poke-entrenador .poke-entrenador-info div button {
+        width: 55%;
+        height: 100%;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 4%;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 600;
+        background-color: #f5ed14;
+        color: black;
+        box-shadow: -2px 3px 0 #222, -4px 6px 0 #000; }
+        .poke-entrenador .poke-entrenador-info div button:active {
+          box-shadow: inset -4px 4px 0 #222;
+          font-size: 0.9rem; }
+
+.poke-equipo {
+  padding: 20px 0 0 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .poke-equipo .poke-card {
+    flex-basis: calc(50% - 20px);
+    margin: .5rem; }
+    .poke-equipo .poke-card .poke-equipo-card {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas: "poke-equipo-data-nombre poke-equipo-data-nombre" "poke-equipo-img poke-equipo-data-types" "poke-equipo-img poke-equipo-data-debilidad" "poke-equipo-img poke-equipo-moves";
+      border: 4px solid rgba(108, 109, 108, 0.486);
+      width: 80%;
+      box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+      -webkit-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59);
+      -moz-box-shadow: 30px 24px 95px -16px rgba(0, 0, 0, 0.59); }
+      .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-nombre {
+        grid-area: poke-equipo-data-nombre;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        background-color: #e2518e;
+        padding: 0.5rem;
+        width: 100%;
+        text-transform: capitalize; }
+      .poke-equipo .poke-card .poke-equipo-card .poke-equipo-img {
+        grid-area: poke-equipo-img;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; }
+        .poke-equipo .poke-card .poke-equipo-card .poke-equipo-img img {
+          width: 100%; }
+      .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-types {
+        grid-area: poke-equipo-data-types;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin: 1rem 0 1rem 0;
+        background-color: rgba(182, 182, 182, 0.349);
+        border-radius: 25px;
+        padding: 5px;
+        text-transform: capitalize; }
+      .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad {
+        grid-area: poke-equipo-data-debilidad;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgba(182, 182, 182, 0.349);
+        border-radius: 25px;
+        padding: 5px;
+        text-transform: capitalize; }
+        .poke-equipo .poke-card .poke-equipo-card .poke-equipo-data-debilidad .poke-equipo-data-types-div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          flex-wrap: wrap; }
+      .poke-equipo .poke-card .poke-equipo-card .poke-equipo-moves {
+        grid-area: poke-equipo-moves;
+        background-color: rgba(182, 182, 182, 0.349);
+        border-radius: 25px;
+        padding: 5px; }
+        .poke-equipo .poke-card .poke-equipo-card .poke-equipo-moves p {
+          text-transform: capitalize;
+          display: flex; }

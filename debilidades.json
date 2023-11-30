@@ -1,0 +1,914 @@
+[
+    {
+        "nombre": "bulbasaur",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "ivysaur",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "venusaur",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "charmander",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "charmeleon",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "charizard",
+        "debilidades": [
+            "water", "rock x4", "electric"
+        ]
+    },
+    {
+        "nombre": "squirtle",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "wartortle",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "blastoise",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "caterpie",
+        "debilidades": [
+            "fire", "flying", "rock"
+        ]
+    },
+    {
+        "nombre": "metapod",
+        "debilidades": [
+            "fire", "flying", "rock"
+        ]
+    },
+    {
+        "nombre": "butterfree",
+        "debilidades": [
+            "fire", "rock x4", "flying", "electric", "ice"
+        ]
+    },
+    {
+        "nombre": "weedle",
+        "debilidades": [
+            "fire", "flying", "psychic", "rock"
+        ]
+    },
+    {
+        "nombre": "kakuna",
+        "debilidades": [
+            "fire", "flying", "psychic", "rock"
+        ]
+    },
+    {
+        "nombre": "beedrill",
+        "debilidades": [
+            "fire", "flying", "psychic", "rock"
+        ]
+    },
+    {
+        "nombre": "pidgey",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "pidgeotto",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "pidgeot",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "rattata",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "raticate",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "spearow",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "fearow",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "ekans",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "arbok",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "pikachu",
+        "debilidades": [
+            "ground"
+        ]
+    },
+    {
+        "nombre": "raichu",
+        "debilidades": [
+            "ground"
+        ]
+    },
+    {
+        "nombre": "sandshrew",
+        "debilidades": [
+            "water", "grass", "ice"
+        ]
+    },
+    {
+        "nombre": "sandslash",
+        "debilidades": [
+            "water", "grass", "ice"
+        ]
+    },
+    {
+        "nombre": "nidoran-f",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "nidorina",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "nidoqueen",
+        "debilidades": [
+            "water", "psychic", "ice", "ground"
+        ]
+    },
+    {
+        "nombre": "nidoran-m",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "nidorino",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "nidoking",
+        "debilidades": [
+            "water", "psychic", "ice", "ground"
+        ]
+    },
+    {
+        "nombre": "clefairy ",
+        "debilidades": [
+            "steel", "poison"
+        ]
+    },
+    {
+        "nombre": "clefable",
+        "debilidades": [
+            "steel", "poison"
+        ]
+    },
+    {
+        "nombre": "vulpix",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "ninetales",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "jigglypuff",
+        "debilidades": [
+            "steel", "poison"
+        ]
+    },
+    {
+        "nombre": "wigglytuff",
+        "debilidades": [
+            "steel", "poison"
+        ]
+    },
+    {
+        "nombre": "zubat",
+        "debilidades": [
+            "psychic", "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "golbat",
+        "debilidades": [
+            "psychic", "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "oddish",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "gloom",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "vileplume",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "paras",
+        "debilidades": [
+            "fire x4", "flying x4", "ice", "poison", "rock", "bug" 
+        ]
+    },
+    {
+        "nombre": "parasect",
+        "debilidades": [
+            "fire x4", "flying x4", "ice", "poison", "rock", "bug" 
+        ]
+    },
+    {
+        "nombre": "venonat",
+        "debilidades": [
+            "fire", "psychic", "flying", "rock"
+        ]
+    },
+    {
+        "nombre": "venomoth",
+        "debilidades": [
+            "fire", "psychic", "flying", "rock"
+        ]
+    },
+    {
+        "nombre": "diglett",
+        "debilidades": [
+            "water", "grass", "ice"
+        ]
+    },
+    {
+        "nombre": "dugtrio",
+        "debilidades": [
+            "water", "grass", "ice"
+        ]
+    },
+    {
+        "nombre": "meowth",
+        "debilidades": [
+            "steel", "poison"
+        ]
+    },
+    {
+        "nombre": "clefairy",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "persian",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "psyduck",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "golduck",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "mankey",
+        "debilidades": [
+            "psychic", "flying", "fairy"
+        ]
+    },
+    {
+        "nombre": "primeape",
+        "debilidades": [
+            "psychic", "flying", "fairy"
+        ]
+    },
+    {
+        "nombre": "growlithe",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "arcanine",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "poliwag",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "poliwhirl",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "poliwrath",
+        "debilidades": [
+            "fairy", "grass", "flying", "psychic", "electric"
+        ]
+    },
+    {
+        "nombre": "abra",
+        "debilidades": [
+            "ghost", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "kadabra",
+        "debilidades": [
+            "ghost", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "alakazam",
+        "debilidades": [
+            "ghost", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "machop",
+        "debilidades": [
+            "psychic", "flying", "fairy"
+        ]
+    },
+    {
+        "nombre": "machoke",
+        "debilidades": [
+            "psychic", "flying", "fairy"
+        ]
+    },
+    {
+        "nombre": "machamp",
+        "debilidades": [
+            "psychic", "flying", "fairy"
+        ]
+    },
+    {
+        "nombre": "bellsprout",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "weepinbell",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "victreebel",
+        "debilidades": [
+            "fire", "psychic", "flying", "ice"
+        ]
+    },
+    {
+        "nombre": "tentacool",
+        "debilidades": [
+            "psychic", "electric", "ground"
+        ]
+    },
+    {
+        "nombre": "tentacruel",
+        "debilidades": [
+            "psychic", "electric", "ground"
+        ]
+    },
+    {
+        "nombre": "geodude",
+        "debilidades": [
+            "water x4", "grass x4", "steel", "fighting", "ground", "ice"
+        ]
+    },
+    {
+        "nombre": "graveler",
+        "debilidades": [
+            "water x4", "grass x4", "steel", "fighting", "ground", "ice"
+        ]
+    },
+    {
+        "nombre": "golem",
+        "debilidades": [
+            "water x4", "grass x4", "steel", "fighting", "ground", "ice"
+        ]
+    },
+    {
+        "nombre": "ponyta",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "rapidash",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "slowpoke",
+        "debilidades": [
+            "ghost", "grass", "electric", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "slowbro",
+        "debilidades": [
+            "ghost", "grass", "electric", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "magnemite",
+        "debilidades": [
+            "ground x4", "fighting", "fire"
+        ]
+    },
+    {
+        "nombre": "magneton",
+        "debilidades": [
+            "ground x4", "fighting", "fire"
+        ]
+    },
+    {
+        "nombre": "farfetchd",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "doduo",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "dodrio",
+        "debilidades": [
+            "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "seel",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "dewgong",
+        "debilidades": [
+            "grass", "electric", "fighting", "rock"
+        ]
+    },
+    {
+        "nombre": "grimer",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "muk",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "shellder",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "cloyster",
+        "debilidades": [
+            "grass", "electric", "fighting", "rock"
+        ]
+    },
+    {
+        "nombre": "gastly",
+        "debilidades": [
+            "ghost", "psychic", "ground", "sinister"
+        ]
+    },
+    {
+        "nombre": "haunter",
+        "debilidades": [
+            "ghost", "psychic", "ground", "sinister"
+        ]
+    },
+    {
+        "nombre": "gengar",
+        "debilidades": [
+            "ghost", "psychic", "ground", "sinister"
+        ]
+    },
+    {
+        "nombre": "onix",
+        "debilidades": [
+            "steel", "fighting", "water x4", "ice", "grass x4", "ground"
+        ]
+    },
+    {
+        "nombre": "drowzee",
+        "debilidades": [
+            "ghost", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "hypno",
+        "debilidades": [
+            "ghost", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "krabby",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "kingler",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "voltorb",
+        "debilidades": [
+            "ground"
+        ]
+    },
+    {
+        "nombre": "electrode",
+        "debilidades": [
+            "ground"
+        ]
+    },
+    {
+        "nombre": "exeggcute",
+        "debilidades": [
+            "bug x4", "poison", "ghost", "fire", "flying", "ice", "sinister"
+        ]
+    },
+    {
+        "nombre": "exeggutor",
+        "debilidades": [
+            "bug x4", "poison", "ghost", "fire", "flying", "ice", "sinister"
+        ]
+    },
+    {
+        "nombre": "cubone",
+        "debilidades": [
+            "water", "grass", "ice"
+        ]
+    },
+    {
+        "nombre": "marowak",
+        "debilidades": [
+            "water", "grass", "ice"
+        ]
+    },
+    {
+        "nombre": "hitmonlee",
+        "debilidades": [
+            "psychic", "flying", "fairy"
+        ]
+    },
+    {
+        "nombre": "hitmonchan",
+        "debilidades": [
+            "psychic", "flying", "fairy"
+        ]
+    },
+    {
+        "nombre": "lickitung",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "koffing",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "weezing",
+        "debilidades": [
+            "psychic", "ground"
+        ]
+    },
+    {
+        "nombre": "rhyhorn",
+        "debilidades": [
+            "steel", "water x4", "grass x4", "ice", "fighting", "ground"
+        ]
+    },
+    {
+        "nombre": "rhydon",
+        "debilidades": [
+            "steel", "water x4", "grass x4", "ice", "fighting", "ground"
+        ]
+    },
+    {
+        "nombre": "chansey",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "tangela",
+        "debilidades": [
+            "fire", "flying", "ice", "poison", "bug"
+        ]
+    },
+    {
+        "nombre": "kangaskhan",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "horsea",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "seadra",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "goldeen",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "seaking",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "staryu",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "starmie",
+        "debilidades": [
+            "ghost", "grass", "electric", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "mr-mime",
+        "debilidades": [
+            "ghost", "steel", "poison"
+        ]
+    },
+    {
+        "nombre": "scyther",
+        "debilidades": [
+            "rock x4", "ice", "electric", "flying", "fire"
+        ]
+    },
+    {
+        "nombre": "jynx",
+        "debilidades": [
+            "steel", "ghost", "fire", "rock", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "electabuzz",
+        "debilidades": [
+            "ground"
+        ]
+    },
+    {
+        "nombre": "magmar",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "pinsir",
+        "debilidades": [
+            "fire", "flying", "rock"
+        ]
+    },
+    {
+        "nombre": "tauros",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "magikarp",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "gyarados",
+        "debilidades": [
+            "electric x4", "rock"
+        ]
+    },
+    {
+        "nombre": "lapras",
+        "debilidades": [
+            "grass", "electric", "fighting", "rock"
+        ]
+    },
+    {
+        "nombre": "ditto",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "eevee",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "vaporeon",
+        "debilidades": [
+            "grass", "electric"
+        ]
+    },
+    {
+        "nombre": "jolteon",
+        "debilidades": [
+            "ground"
+        ]
+    },
+    {
+        "nombre": "flareon",
+        "debilidades": [
+            "water", "ground", "rock"
+        ]
+    },
+    {
+        "nombre": "porygon",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "omanyte",
+        "debilidades": [
+            "grass x4", "electric", "fighting", "ground"
+        ]
+    },
+    {
+        "nombre": "omastar",
+        "debilidades": [
+            "grass x4", "electric", "fighting", "ground"
+        ]
+    },
+    {
+        "nombre": "kabuto",
+        "debilidades": [
+            "grass x4", "electric", "fighting", "ground"
+        ]
+    },
+    {
+        "nombre": "kabutops",
+        "debilidades": [
+            "grass x4", "electric", "fighting", "ground"
+        ]
+    },
+    {
+        "nombre": "aerodactyl",
+        "debilidades": [
+            "steel", "water", "electric", "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "snorlax",
+        "debilidades": [
+            "fighting"
+        ]
+    },
+    {
+        "nombre": "articuno",
+        "debilidades": [
+            "rock x4", "steel", "fire", "electric"
+        ]
+    },
+    {
+        "nombre": "zapdos",
+        "debilidades": [
+            "ice", "rock"
+        ]
+    },
+    {
+        "nombre": "moltres",
+        "debilidades": [
+            "rock x4", "water", "electric"
+        ]
+    },
+    {
+        "nombre": "dratini",
+        "debilidades": [
+            "fairy", "ice", "dragon"
+        ]
+    },
+    {
+        "nombre": "dragonair",
+        "debilidades": [
+            "fairy", "ice", "dragon"
+        ]
+    },
+    {
+        "nombre": "dragonite",
+        "debilidades": [
+            "fairy", "ice x4", "dragon", "rock"
+        ]
+    },
+    {
+        "nombre": "mewtwo",
+        "debilidades": [
+            "ghost", "bug", "sinister"
+        ]
+    },
+    {
+        "nombre": "mew",
+        "debilidades": [
+            "ghost", "bug", "sinister"
+        ]
+    }
+]

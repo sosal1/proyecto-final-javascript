@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css"/>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Pokedex</a></li>
+                <li><a href="pokedex.html">Pokemon</a></li>
+                <li><a id="nombreLink" href="ficha.html">Nombre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="poke-entrenador">
+            <div class="poke-entrenador-img">
+                <h2>Entrenador</h2>
+                <img src="../img/entrenador1.png" alt="personaje">
+            </div>
+            <div class="poke-entrenador-info">
+                <h2>Información</h2>
+                <p>Nombre</p>
+                <input type="text" id="nombreInput">
+                <p>Edad</p>
+                <input type="text" id="edadInput">
+                <p>Color de ojos</p>
+                <input type="text" id="ojosInput">
+                <p>Color de pelo</p>
+                <input type="text" id="peloInput">
+                <div>
+                    <button id="guardarDatosBtn">Guardar</button>
+                    <button id="resetDatosBtn">Borrar</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="poke-equipo">
+        </section>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

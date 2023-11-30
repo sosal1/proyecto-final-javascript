@@ -1,0 +1,103 @@
+.body-pokedex {
+    background-image: url(/img/fondo-pokemon.png);
+    background-size: 85%;
+
+    main {
+        .pokedex {
+            margin-top: 5%;
+            position: relative;
+            @include flex (flex, center, center, row);
+
+            .pokedex-img {
+                width: 45%;
+                position: relative;
+            }
+
+            .poke-bg {
+                position: absolute;
+                top: 30%;
+                left: 31%;
+                height: 30%;
+                width: 30%;
+                z-index: -2;
+            }
+
+            .pokemon-pkx {
+                position: absolute;
+                left: 38%;
+                top: 45%;
+                transform: translate(-20%, -50%);
+                height: 20%;
+            }
+
+            .poke-pokedex {
+                position: absolute;
+                color: white;
+                width: 14%;
+                right: 31%;
+                top: 33%;
+
+                .poke-pokedex-pokemon {
+                    padding: 2px;
+
+                    .poke-pokedex-pokemon-nombre {
+                        text-transform: capitalize;
+
+                        font-size: 90%;
+                    }
+                }
+
+                .poke-pokedex-pokemon-habilidad {
+                    font-size: 100%;
+                }
+
+                .poke-pokedex-pokemon-descripcion {
+                    font-size: 75%;
+                    margin: 2px;
+                }
+            }
+        }
+
+        .formulario {
+            position: absolute;
+            bottom: 7%;
+            left: 33%;
+
+            .buscador-pokedex {
+                background-color: #5EC480;
+                width: 8vw;
+                height: 7vh;
+                border-radius: 12px;
+            }
+        }
+
+        .prev-next {
+            position: absolute;
+            bottom: 8.2%;
+            right: 29.4%;
+            width: 17%;
+            display: flex;
+            gap: 1rem;
+
+            button {
+                width: 55%;
+                height: 100%;
+                border: 2px solid black;
+                border-radius: 5px;
+                padding: 2.5%;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: 600;
+                background-color: #053f31;
+                color: white;
+                box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+
+                &:active {
+                    box-shadow: inset -4px 4px 0 #222;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+    }
+}

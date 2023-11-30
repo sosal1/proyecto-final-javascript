@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Pokedex</title>
+</head>
+
+<body class="body-pokedex">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Pokedex</a></li>
+                <li><a href="pokedex.html">Pokemon</a></li>
+                <li><a id="nombreLink" href="ficha.html">Nombre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="pokedex">
+            <img class="pokedex-img" src="../img/pokedex.png" alt="pokedex">
+            <img class="poke-bg" src="../img/bg-ruta.jpg" alt="">
+            <img class="pokemon-pkx"
+                src="#"
+                alt="pokemon">
+            <div class="poke-pokedex">
+                <h1 class="poke-pokedex-pokemon">
+                    <span class="poke-pokedex-pokemon-numero"></span> -
+                    <span class="poke-pokedex-pokemon-nombre"></span>
+                </h1>
+                <p class="poke-pokedex-pokemon-habilidad"></p>
+                <p class="poke-pokedex-pokemon-descripcion"></p>
+            </div>
+            <form class="formulario">
+                <input class="buscador-pokedex" type="search" placeholder="Buscar" required>
+            </form>
+            <div class="prev-next">
+                <button class="anterior">Anterior</button>
+                <button class="siguiente">Siguiente</button>
+            </div>
+        </div>
+    </main>
+    <script src="../js/pokedex.js"></script>
+</body>
+
+</html>

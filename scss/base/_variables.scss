@@ -1,0 +1,156 @@
+@mixin flex ($flex, $justify, $align, $direction) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align ;
+    flex-direction: $direction ;
+}
+
+@mixin bg ($bg-position, $bg-size, $bg-repeat) {
+    background-position: $bg-position;
+    background-size: $bg-size;
+    background-repeat: $bg-repeat;
+}
+
+%info {
+    background-color: gray;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+}
+
+%hierba {
+    background-color: #159d45;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%veneno {
+    background-color: #B97FC8;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%fuego {
+    background-color: #ff0000;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%volador {
+    background-color: #84c5f3;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 5px;
+}
+
+%agua {
+    background-color: #488eea;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%electrico {
+    background-color: #ffff00;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 5px;
+}
+
+%bicho {
+    background-color: #ADBD2E;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 5px;
+}
+
+%normal {
+    background-color: #A4ACAF;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 5px;
+}
+
+%tierra {
+    background-color: #794A30;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%hada {
+    background-color: #F3A8EC;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 5px;
+}
+
+%lucha {
+    background-color: #db5433;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%psiquico {
+    background-color: #ee306c;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%roca {
+    background-color: #B59C52;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%acero {
+    background-color: #9EB7B8;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 5px;
+}
+
+%hielo {
+    background-color: #7ADEFF;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 5px;
+}
+
+%fantasma {
+    background-color: #825cc1;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%dragon {
+    background-color: #F16E57;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
+
+%siniestro {
+    background-color: #707070;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    margin-right: 5px;
+}
